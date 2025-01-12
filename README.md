@@ -2,22 +2,22 @@
 
 ## Project Overview
 
-This project involves designing a solution to collect and store Azure Activity Log data for later investigations. The system uses Terraform for infrastructure configuration, Azure MySQL for storage, and a webhook built with Node.js and Express.js to receive and store alert data.
+This project is a solution to collect and store Azure Activity Log data for later investigations. The system uses Terraform for infrastructure configuration, Azure MySQL for storage, and a webhook built with Node.js and Express.js to receive and store alert data and Azure Container Registries/Instances for deployment.
 
 ## Key Components
 
-1. **Terraform**:  
-   - Used to automate the provisioning of Azure resources, including the action group for alerts and MySQL database on Azure.
-   
-2. **Webhook**:  
+1. **Webhook**:  
    - Built using Node.js and Express.js, the webhook collects alert data from Azure in JSON format.
    - The webhook is deployed on Azure Container Instances (ACI) to receive alerts and store them in the Azure MySQL database.
    
-3. **Azure MySQL**:  
-   - The collected data is stored in a MySQL database hosted on Azure, enabling efficient querying and retrieval of logs.
+2. **Azure MySQL**:  
+   - The collected data is stored in a MySQL database hosted on Azure.
    
-4. **Docker**:  
+3. **Docker**:  
    - The webhook server is containerized and deployed to Azure Container Registry and Azure Container Instances for scalability and easy deployment.
+
+4. **Terraform**:  
+   - Used to automate the provisioning of Azure resources, including the action group for alerts and MySQL database on Azure.
 
 ## Workflow
 
@@ -62,4 +62,4 @@ This project involves designing a solution to collect and store Azure Activity L
 
 ## Conclusion
 
-This project demonstrates how to automate the collection and storage of Azure Activity Log Alerts for anomaly detection using modern DevOps tools such as Terraform, Docker, and Azure services.
+This project demonstrates how to automate the collection and storage of Azure Activity Log Alerts for anomaly detection using Azure services.
