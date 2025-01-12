@@ -1,0 +1,10 @@
+node_modules
+.env
+.DS_Store
+*.log
+**/.terraform/
+**/terraform.tfstate
+**/terraform.tfstate.backup
+csvScript/env
+csvScript/.ipynb_checkpoints
+TERRAFORM-AZURE/.terraform.lock.hcl
