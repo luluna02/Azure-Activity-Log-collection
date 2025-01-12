@@ -4,6 +4,14 @@
 
 This project is a solution to collect and store Azure Activity Log data for later investigations. The system uses Terraform for infrastructure configuration, Azure MySQL for storage, and a webhook built with Node.js and Express.js to receive and store alert data and Azure Container Registries/Instances for deployment.
 
+## Screenshots
+
+- **Azure CLI showing query results**  
+  ![Azure CLI showing query results](https://github.com/luluna02/Azure-Activity-Log-collection/blob/35fe1c549e2ffe039ca8f9e1517e37c466b89de6/Screenshots/Database%20Azure%20CLI%20for%20received%20alerts.png)
+
+- **Deployed webhook image on Azure Container Registry**  
+  ![Deployed webhook image on Azure Container Registry](https://github.com/luluna02/Azure-Activity-Log-collection/blob/35fe1c549e2ffe039ca8f9e1517e37c466b89de6/Screenshots/Deployed%20webhook%20image%20on%20Azure%20Container%20Registry.png)
+
 ## Key Components
 
 1. **Webhook**:  
