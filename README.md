@@ -1,6 +1,6 @@
 # Azure Activity Log Data Collection System
 
-<img width="400" height="300" alt="Screenshot 2025-02-05 at 8 36 25 PM" src="https://github.com/user-attachments/assets/700a78ad-e24c-42f7-a55e-aed2743fbb2f" />
+<img width="600" height="500" alt="Screenshot 2025-02-05 at 8 36 25 PM" src="https://github.com/user-attachments/assets/700a78ad-e24c-42f7-a55e-aed2743fbb2f" />
 
 
 ## Project Overview
