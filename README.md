@@ -1,5 +1,8 @@
 # Azure Activity Log Data Collection System
 
+<img width="789" height="613" alt="Screenshot 2025-02-05 at 8 36 25 PM" src="https://github.com/user-attachments/assets/700a78ad-e24c-42f7-a55e-aed2743fbb2f" />
+
+
 ## Project Overview
 
 This project is a solution to collect and store Azure Activity Log data for later investigations. The system uses Terraform for infrastructure configuration, Azure MySQL for storage, and a webhook built with Node.js and Express.js to receive and store alert data and Azure Container Registries/Instances for deployment.
